@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import clones from './clones.js';
+
+function getRandomClone() {
+  const randomIndex = Math.floor(Math.random() * clones.clonesList.length);
+  return clones.clonesList[randomIndex];
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="layout">
+      <div className="section">
+        <div className="masthead">
+          <h1>Wylie Fisher</h1>
+          <p className="clones">{getRandomClone()}</p>
+        </div>
+      </div>
+      <div className="section">
+        <div className="content">
+          <p>I'm a UI Web Developer with 20+ years of experience, strong problem-solving and debugging skills, and a passion for standards and learning new technologies. Proficient in current web trends, with an interest in emerging ones. Committed to writing valid, hand-coded solutions and dedicated to continuous learning. A versatile multitasker who thrives in collaborative environments, adapts quickly, and excels in both oral and written communication.</p>
+        </div>
+      </div>
+      <div className="section">
+        <div className="footer">
+          <a type="email" href="mailto:me@wyliefisher.com">me@wyliefisher.com</a>
+        </div>
+      </div>
     </div>
   );
 }
