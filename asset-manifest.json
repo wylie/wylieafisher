@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wyliefisher/static/css/main.e32eff3c.css",
+    "main.js": "/wyliefisher/static/js/main.29176c7e.js",
+    "static/js/453.f92f822c.chunk.js": "/wyliefisher/static/js/453.f92f822c.chunk.js",
+    "index.html": "/wyliefisher/index.html",
+    "main.e32eff3c.css.map": "/wyliefisher/static/css/main.e32eff3c.css.map",
+    "main.29176c7e.js.map": "/wyliefisher/static/js/main.29176c7e.js.map",
+    "453.f92f822c.chunk.js.map": "/wyliefisher/static/js/453.f92f822c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e32eff3c.css",
+    "static/js/main.29176c7e.js"
+  ]
+}
