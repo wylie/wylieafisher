@@ -12,7 +12,11 @@ function App() {
       <div className="section">
         <div className="masthead">
           <h1>Wylie Fisher</h1>
-          <p className="clones">{getRandomClone()}</p>
+          <div className="links">
+            <a href="mailto:me@wyliefisher.com" TARGET="_blank">email</a>
+            <a href="https://github.com/wylie" TARGET="_blank">github</a>
+            <a href="https://www.linkedin.com/in/wyliefisher/" TARGET="_blank">linkedin</a>
+          </div>
         </div>
       </div>
       <div className="section">
@@ -22,9 +26,7 @@ function App() {
       </div>
       <div className="section">
         <div className="footer">
-          <a href="mailto:me@wyliefisher.com">email</a>
-          <a href="https://github.com/wylie">github</a>
-          <a href="https://www.linkedin.com/in/wyliefisher/">linkedin</a>
+          <p className="clones">{getRandomClone()}</p>
         </div>
       </div>
     </div>
