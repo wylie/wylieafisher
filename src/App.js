@@ -22,7 +22,9 @@ function App() {
       </div>
       <div className="section">
         <div className="footer">
-          <a type="email" href="mailto:me@wyliefisher.com">me@wyliefisher.com</a>
+          <a href="mailto:me@wyliefisher.com">email</a>
+          <a href="https://github.com/wylie">github</a>
+          <a href="https://www.linkedin.com/in/wyliefisher/">linkedin</a>
         </div>
       </div>
     </div>
