@@ -1,5 +1,9 @@
 import './App.css';
 import clones from './clones.js';
+import React from 'react';
+import { ReactComponent as EmailIcon } from './assets/iconmonstr-email-11.svg';
+import { ReactComponent as GithubIcon } from './assets/iconmonstr-github-5.svg';
+import { ReactComponent as LinkedinIcon } from './assets/iconmonstr-linkedin-5.svg';
 
 function getRandomClone() {
   const randomIndex = Math.floor(Math.random() * clones.clonesList.length);
@@ -13,9 +17,9 @@ function App() {
         <div className="masthead">
           <h1>Wylie Fisher</h1>
           <div className="links">
-            <a href="mailto:me@wyliefisher.com" TARGET="_blank">email</a>
-            <a href="https://github.com/wylie" TARGET="_blank">github</a>
-            <a href="https://www.linkedin.com/in/wyliefisher/" TARGET="_blank">linkedin</a>
+            <a href="mailto:me@wyliefisher.com" target="_blank" rel="noopener noreferrer"><EmailIcon className="icon" /></a>
+            <a href="https://github.com/wylie" target="_blank" rel="noopener noreferrer"><GithubIcon className="icon" /></a>
+            <a href="https://www.linkedin.com/in/wyliefisher/" target="_blank" rel="noopener noreferrer"><LinkedinIcon className="icon" /></a>
           </div>
         </div>
       </div>
