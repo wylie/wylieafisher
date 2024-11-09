@@ -21,7 +21,8 @@ function App() {
       <main>
         <h2>About</h2>
         <section className="about">
-          <p><img src={Portrait} alt="portrait" />Ahoy, I'm a UI Web Developer with extensive experience in front-end developement, strong problem-solving and debugging skills, and a passion for standards and learning new technologies. Proficient in current web trends, with an interest in emerging ones. Committed to writing valid, hand-coded solutions and dedicated to continuous learning. A versatile multitasker who thrives in collaborative environments, adapts quickly, and excels in both oral and written communication.</p>
+          <p><img src={Portrait} alt="portrait" />Ahoy! I’m a developer with extensive front-end experience, strong problem-solving skills, and a focus on clean, standards-based code. I try to stay current with web trends, am open to emerging technologies, and am committed to continuous learning.</p>
+          <p>Outside of work, I’m a dad, partner, artist, and animal lover (with a dog, two cats, and a state-fair goldfish—and hopes of having chickens someday!). I’m happiest outdoors—reading, hiking, kayaking, or enjoying a campfire—and love to play with Lego and create art. Grounded by values of social justice, generosity, honesty, curiosity, and adaptability, I thrive in collaborative environments, bringing strong communication skills and adaptability to every project.</p>
         </section>
         <h2>Projects</h2>
         <section className="projects">
