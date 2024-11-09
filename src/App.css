@@ -58,14 +58,13 @@ main {
   }
 }
 .projects .project {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   padding: 1rem;
   border-radius: 10px;
   background: var(--background-contrast-color);
   transition: all .1s;
-  align-items: flex-start;
-  justify-content: flex-start;
+}
+.projects a {
   text-decoration: none;
 }
 .projects h3 {
@@ -73,6 +72,11 @@ main {
   width: 100%;
   margin-bottom: 1rem;
   padding-bottom: .5rem;
+  transition: all 1s;
+  position: relative;
+}
+.projects a:hover h3 {
+  text-decoration: underline;
 }
 .projects p {
   font-size: var(--fontSize-secondary);

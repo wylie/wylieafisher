@@ -26,28 +26,36 @@ function App() {
         </section>
         <h2>Projects</h2>
         <section className="projects">
-          <a href="https://wylie.github.io/ifeelblank/" target="_blank" rel="noreferrer" className="project">
-            <h3>I Feel Blank</h3>
-            <p>ifeelblank is a React app where users can anonymously share their current mood, contributing to a collective mosaic of emotions. Each submission adds to an evolving "mood board," offering a real-time snapshot of the community's shared feelings.</p>
-          </a>
-          <a href="https://wylie.github.io/SantaCommandsIt/" target="_blank" rel="noreferrer" className="project">
-            <h3>Santa Commands It!</h3>
-            <p>This is a playful React app where Santa has taken a commanding turn, granting (or denying) users' holiday wishes with a touch of humor and seasonal flair. Users submit their requests, and Santa, now a bit more "powerful," considers each one and delivers a dynamic, festive response. Enjoy making wishes, but beware—Santa's judgment may surprise you!</p>
-          </a>
-          <a href="https://wylie.github.io/wampastompa/#make-a-new" target="_blank" rel="noreferrer" className="project">
-            <h3>Wampa Stompa</h3>
-            <p>This lets you design your own Wampa Stompa mix image! The image is inspired by the Darth Punk video (https://www.youtube.com/watch?v=1qhbKGc5rVM). Customize the visuals to capture the spirit of Wampa Stompa and create your unique image remix!</p>
-          </a>
-          <a href="https://play.date/pulp/42320/play/" target="_blank" rel="noreferrer" className="project">
-            <h3>Maze Game</h3>
-            <p>This is a maze game developed with Playdate Pulp. In this game, you navigate a little character through a dark maze, trying to find the exit and collect all the coins scattered throughout. The maze is filled with twists and turns, and you'll need to use your wits and memory to avoid dead ends and find your way out. Each coin you collect adds to your score, and finding the exit completes the level. Good luck, and happy maze-solving!</p>
-          </a>
+          <article className="project">
+            <a href="https://wylie.github.io/ifeelblank/" target="_blank" rel="noreferrer">
+              <h3>I Feel Blank</h3>
+              <p>ifeelblank is a React app where users can anonymously share their current mood, contributing to a collective mosaic of emotions. Each submission adds to an evolving "mood board," offering a real-time snapshot of the community's shared feelings.</p>
+            </a>
+          </article>
+          <article className="project">
+            <a href="https://wylie.github.io/SantaCommandsIt/" target="_blank" rel="noreferrer">
+              <h3>Santa Commands It!</h3>
+              <p>This is a playful React app where Santa has taken a commanding turn, granting (or denying) users' holiday wishes with a touch of humor and seasonal flair. Users submit their requests, and Santa, now a bit more "powerful," considers each one and delivers a dynamic, festive response. Enjoy making wishes, but beware—Santa's judgment may surprise you!</p>
+            </a>
+          </article>
+          <article className="project">
+            <a href="https://wylie.github.io/wampastompa/#make-a-new" target="_blank" rel="noreferrer">
+              <h3>Wampa Stompa</h3>
+              <p>This lets you design your own Wampa Stompa mix image! The image is inspired by the Darth Punk video (https://www.youtube.com/watch?v=1qhbKGc5rVM). Customize the visuals to capture the spirit of Wampa Stompa and create your unique image remix!</p>
+            </a>
+          </article>
+          <article className="project">
+            <a href="https://play.date/pulp/42320/play/" target="_blank" rel="noreferrer">
+              <h3>Maze Game</h3>
+              <p>This is a maze game developed with Playdate Pulp. In this game, you navigate a little character through a dark maze, trying to find the exit and collect all the coins scattered throughout. The maze is filled with twists and turns, and you'll need to use your wits and memory to avoid dead ends and find your way out. Each coin you collect adds to your score, and finding the exit completes the level. Good luck, and happy maze-solving!</p>
+            </a>
+          </article>
         </section>
         <h2>Connect</h2>
         <section className="connect">
-          <a href="mailto:me@wyliefisher.com" target="_blank" rel="noopener noreferrer"><EmailIcon className="icon" /></a>
-          <a href="https://github.com/wylie" target="_blank" rel="noopener noreferrer"><GithubIcon className="icon" /></a>
-          <a href="https://www.linkedin.com/in/wyliefisher/" target="_blank" rel="noopener noreferrer"><LinkedinIcon className="icon" /></a>
+          <a href="mailto:me@wyliefisher.com" target="_blank" rel="noopener noreferrer" title="Email me!"><EmailIcon className="icon" /></a>
+          <a href="https://github.com/wylie" target="_blank" rel="noopener noreferrer" title="More work on GitHub!"><GithubIcon className="icon" /></a>
+          <a href="https://www.linkedin.com/in/wyliefisher/" target="_blank" rel="noopener noreferrer" title="Let's connect on Linkedin!"><LinkedinIcon className="icon" /></a>
         </section>
       </main>
       <footer>
