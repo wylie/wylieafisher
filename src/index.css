@@ -44,6 +44,7 @@ h1, h2, h3, p {
 }
 h1 {
   font-size: var(--fontSize-h1);
+  text-wrap: nowrap;
 }
 h2 {
   font-size: var(--fontSize-h2);
@@ -52,7 +53,7 @@ h3 {
   font-size: var(--fontSize-h3);
 }
 p {
-  font-size: var(--fontSize-primary);
+  font-size: var(--fontSize-body);
   line-height: 1.5;
 }
 ul {
