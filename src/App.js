@@ -39,7 +39,7 @@ function App() {
           </a>
           <a href="https://play.date/pulp/42320/play/" target="_blank" rel="noreferrer" className="project">
             <h3>Maze Game</h3>
-            <p>This is a maze game developed with Playdate Pulp. You find your way around the maze and collect coins.</p>
+            <p>This is a maze game developed with Playdate Pulp. In this game, you navigate a little character through a dark maze, trying to find the exit and collect all the coins scattered throughout. The maze is filled with twists and turns, and you'll need to use your wits and memory to avoid dead ends and find your way out. Each coin you collect adds to your score, and finding the exit completes the level. Good luck, and happy maze-solving!</p>
           </a>
         </section>
         <h2>Connect</h2>
