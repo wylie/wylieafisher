@@ -1,7 +1,15 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
 #root {
+  min-height: 100%;
   display: grid;
 }
 .layout {
+  min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
   container-type: size;
