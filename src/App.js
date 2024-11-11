@@ -45,9 +45,9 @@ function App() {
             </a>
           </article>
           <article className="project">
-            <a href="https://play.date/pulp/42320/play/" target="_blank" rel="noreferrer">
+            <a href="https://wylie.github.io/pico-8/" target="_blank" rel="noreferrer">
               <h3>Maze Game</h3>
-              <p>This is a maze game developed with Playdate Pulp. In this game, you navigate a little character through a dark maze, trying to find the exit and collect all the coins scattered throughout. The maze is filled with twists and turns, and you'll need to use your wits and memory to avoid dead ends and find your way out. Each coin you collect adds to your score, and finding the exit completes the level. Good luck, and happy maze-solving!</p>
+              <p>This is a maze game developed in Lua in Pico-8. In this game, you navigate a little character through a dark maze, trying to find the exit. The maze is filled with twists and turns, and you'll need to use your wits and memory to avoid dead ends and find your way out. Good luck, and happy maze-solving!</p>
             </a>
           </article>
         </section>
