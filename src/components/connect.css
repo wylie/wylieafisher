@@ -1,0 +1,20 @@
+.connect {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.connect a {
+  line-height: 0;
+}
+.connect .icon {
+  width: 2.25rem;
+  height: 2.25rem;
+  fill: var(--fill-color);
+  transition: all .1s;
+}
+.connect .icon:hover {
+  transform: scale(1.02);
+}
+.connect .icon:active {
+  transform: scale(0.98);
+}

@@ -1,0 +1,8 @@
+.about p img {
+  width: 100px;
+  float: left;
+  margin-right: 1rem;
+}
+.about p:not(:first-child) {
+  margin-top: 1rem;
+}
