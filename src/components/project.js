@@ -4,7 +4,7 @@ import './project.css';
 const Project = ({ title, description, link }) => {
   return (
     <article className="project">
-      <a href={link} target="_blank" rel="noreferrer">
+      <a href={link} target="_blank" rel="noreferrer" title={title}>
         <h3>{title}</h3>
         <p>{description}</p>
       </a>
