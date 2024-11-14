@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Simple Deploy to GitHub Pages
-      uses: wylie/deploy-github-pages@v0.0.1
+      uses: wylie/deploy-github-pages@v0.0.2
