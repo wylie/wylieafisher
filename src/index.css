@@ -10,7 +10,7 @@
   --theme-color-1: #EED595;
   --theme-color-2: #F6B179;
   --theme-color-3: #264653;
-
+  
   --background-color: var(--theme-color-1);
   --background-contrast-color: var(--theme-color-2);
   --border-color: var(--theme-color-2);
@@ -18,7 +18,7 @@
   --text-color-link: var(--theme-color-3);
   --text-color-link-hover: var(--theme-color-3);
   --fill-color: var(--theme-color-3);
-
+  
   --fontSize-h1: 3rem;
   --fontSize-h2: 1.75rem;
   --fontSize-h3: 1.25rem;
@@ -26,6 +26,19 @@
   --fontSize-secondary: .875rem;
   --fontSize-body: 1.25rem;
   --gap: 1rem;
+
+  /* dark theme */
+  --theme-dark-color-1: #06112e;
+  --theme-dark-color-2: #094e86;
+  --theme-dark-color-3: #EED595;
+
+  --background-dark-color: var(--theme-dark-color-1);
+  --background-dark-contrast-color: var(--theme-dark-color-2);
+  --border-dark-color: var(--theme-dark-color-2);
+  --text-dark-color: var(--theme-dark-color-3);
+  --text-dark-color-link: var(--theme-dark-color-3);
+  --text-dark-color-link-hover: var(--theme-dark-color-3);
+  --fill-dark-color: var(--theme-dark-color-3);
 }
 * {
   font-size: 16px;
@@ -38,6 +51,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-color);
   font-size: var(--fontSize-primary);
+  transition: all .5s;
+}
+body.dark {
+  color: var(--text-dark-color);
+  background-color: var(--theme-dark-color-1);
 }
 h1, h2, h3, p {
   margin: 0;
@@ -66,4 +84,11 @@ a {
 }
 a:hover {
   color: var(--text-color-link-hoverhover);
+}
+.dark a {
+  color: var(--text-dark-color-link);
+  font-size: inherit;
+}
+.dark a:hover {
+  color: var(--text-dark-color-link-hoverhover);
 }

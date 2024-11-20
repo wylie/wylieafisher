@@ -11,6 +11,10 @@
   height: 2.25rem;
   fill: var(--fill-color);
   transition: all .1s;
+  filter: invert(23%) sepia(11%) saturate(749%) hue-rotate(145deg) brightness(92%) contrast(92%);
+}
+.dark .connect .icon {
+  filter: invert(90%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(95%) contrast(90%);
 }
 .connect .icon:hover {
   transform: scale(1.02);

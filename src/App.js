@@ -1,9 +1,10 @@
 import './App.css';
 import clones from './clones.js';
-import React from 'react';
+import React, { useState } from 'react';
 import Project from './components/project';
 import About from './components/about';
 import Connect from './components/connect';
+import switchModeIcon from './assets/dark-mode.png';
 
 function getRandomClone() {
   const randomIndex = Math.floor(Math.random() * clones.clonesList.length);
@@ -11,11 +12,23 @@ function getRandomClone() {
 }
 
 function App() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+    document.body.classList.toggle('dark', !isDarkMode);
+  };
+
   return (
     <div className="layout">
       <header>
         <h1>Wylie Fisher</h1>
-        <h3>Front-End Web Developer</h3>
+        <h3>
+          Front-End Web Developer
+          <button title="switch color mode" onClick={toggleDarkMode}>
+            <img src={switchModeIcon} alt="switch mode" className="icon" />
+          </button>
+        </h3>
       </header>
       <main>
         <About />

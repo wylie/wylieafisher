@@ -33,6 +33,30 @@ header {
   border-bottom: 3px solid var(--border-color);
   padding-bottom: 1rem;
 }
+header h3 {
+  display: flex;
+  justify-content: space-between;
+}
+header button {
+  display: flex;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+header .icon {
+  filter: invert(23%) sepia(11%) saturate(749%) hue-rotate(145deg) brightness(92%) contrast(92%);
+  height: 1.5rem;
+}
+.dark header .icon {
+  filter: invert(90%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
+header .icon:hover {
+  transform: scale(1.02);
+}
+header .icon:active {
+  transform: scale(0.98);
+}
 /* CENTER */
 main {
   display: flex;

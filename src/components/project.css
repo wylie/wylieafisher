@@ -15,6 +15,9 @@
   background: var(--background-contrast-color);
   transition: all .1s;
 }
+.dark .projects .project {
+  background: var(--background-dark-contrast-color);
+}
 .projects a {
   text-decoration: none;
 }
