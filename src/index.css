@@ -51,9 +51,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-color);
   font-size: var(--fontSize-primary);
-  transition: all .5s;
 }
 body.dark {
+  transition: all .2s;
   color: var(--text-dark-color);
   background-color: var(--theme-dark-color-1);
 }

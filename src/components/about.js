@@ -5,10 +5,12 @@ import DarkPortrait from '../assets/portrait-dark-no-bg-color.png';
 
 const About = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const checkDarkMode = () => {
+    setIsDarkMode(document.body.classList.contains('dark'));
+  };
+
   useEffect(() => {
-    const checkDarkMode = () => {
-      setIsDarkMode(document.body.classList.contains('dark'));
-    };
     checkDarkMode();
     const observer = new MutationObserver(checkDarkMode);
     observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
