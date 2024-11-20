@@ -18,7 +18,6 @@ function App() {
         <h3>Front-End Web Developer</h3>
       </header>
       <main>
-        <h2>About</h2>
         <About />
         <h2>Projects</h2>
         <section className="projects">
@@ -32,6 +31,7 @@ function App() {
           <Connect link="mailto:me@wyliefisher.com" title="Email me!" icon="email" />
           <Connect link="https://github.com/wylie" title="More work on GitHub!" icon="github" />
           <Connect link="https://www.linkedin.com/in/wyliefisher/" title="Let's connect on Linkedin!" icon="linkedin" />
+          <Connect link="https://www.goodreads.com/wyliefisher" title="Let's connect on Goodreads!" icon="goodreads" />
         </section>
       </main>
       <footer>

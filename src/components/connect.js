@@ -1,17 +1,20 @@
 import React from 'react';
 import './connect.css';
-import { ReactComponent as EmailIcon } from '../assets/iconmonstr-email-11.svg';
-import { ReactComponent as GithubIcon } from '../assets/iconmonstr-github-5.svg';
-import { ReactComponent as LinkedinIcon } from '../assets/iconmonstr-linkedin-5.svg';
+import emailIcon from '../assets/email.png';
+import githubIcon from '../assets/github.png';
+import goodreadsIcon from '../assets/goodreads.png';
+import linkedinIcon from '../assets/linkedin.png';
 
 const Connect = ({link, title, icon}) => {
   let IconComponent;
   if (icon === 'email') {
-      IconComponent = <EmailIcon className="icon" />;
-  } else if (icon === 'github') {
-      IconComponent = <GithubIcon className="icon" />;
-  } else if (icon === 'linkedin') {
-      IconComponent = <LinkedinIcon className="icon" />;
+      IconComponent = <img src={emailIcon} className="icon" alt="" />;
+    } else if (icon === 'github') {
+      IconComponent = <img src={githubIcon} className="icon" alt="" />;
+    } else if (icon === 'linkedin') {
+      IconComponent = <img src={linkedinIcon} className="icon" alt="" />;
+    } else if (icon === 'goodreads') {
+      IconComponent = <img src={goodreadsIcon} className="icon" alt="" />;
   }
 
   return (
