@@ -1,11 +1,11 @@
 import './App.css';
-import clones from './clones.js';
-import React, { useState } from 'react';
-import Project from './components/project';
+import React from 'react';
 import About from './components/about';
 import Connect from './components/connect';
+import Project from './components/project';
 import switchModeIcon from './assets/dark-mode.png';
 import projects from './projects';
+import clones from './clones.js';
 
 function getRandomClone() {
   const randomIndex = Math.floor(Math.random() * clones.clonesList.length);
@@ -13,11 +13,15 @@ function getRandomClone() {
 }
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
   const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-    document.body.classList.toggle('dark', !isDarkMode);
+    const isDarkMode = document.body.classList.contains('dark');
+    if (isDarkMode) {
+      document.body.classList.add('light');
+      document.body.classList.remove('dark');
+    } else {
+      document.body.classList.add('dark');
+      document.body.classList.remove('light');
+    }
   };
 
   return (
